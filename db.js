@@ -4,7 +4,7 @@ require('dotenv').config({path:'C:/Users/Dell/Documents/Tejas/MoviesApp/.env'})
 const pool = new Pool({
     user:"postgres",
     password:"tejas94843",
-    host:"localhost",
+    host:"127.0.0.1",
     port:"5432",
     database:"MovieAppUsers"
 });
