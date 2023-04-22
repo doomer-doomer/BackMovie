@@ -6,7 +6,7 @@ const pool = new Pool({
     password:"tejas94843",
     host:"localhost",//localhost
     port:5432,
-    database:process.env.DATABASE
+    database:"MovieAppUsers"
 });
 
 
